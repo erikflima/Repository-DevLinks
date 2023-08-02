@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+	<head>
+
+		<!-- Permite que a pagina aceite caracteres especiais como tio, cedilha etc. -->
+		<meta charset="UTF-8" />
+
+		<!-- Faz adaptacao para o celular. -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   		<!-- Localizacao do arquivo css do projeto. -->     
+        <link rel="stylesheet" href="./style.css">
+
+   		<!-- Importando a fonte de texto Inter (https://fonts.google.com/specimen/Inter?query=inter) do google fontes ao projeto. -->     
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+		<title>DevLinks</title>
+	</head>
+
+	<body>
+
+		<div id="container">
+
+			<div id="profile">
+
+				<img src="./assets/avatar.png" alt="Foto de perfil.">
+
+				<p>@erikflima | eriklima.com</p>
+
+			</div>
+
+
+			<div id="switch" onclick="toggleMode()" >
+				<button></button>
+				<span></span>
+			</div>
+
+
+			<ul>
+				<li>
+					<a href="https://eriklima.com/" target="_blank">Site</a>
+				</li>
+
+				<li>
+					<a href="https://eriklima.com/youtube" target="_blank">Youtube</a>
+				</li>
+
+				<li>
+					<a href="https://eriklima.com/linkedin" target="_blank">Linkedin</a>
+				</li>
+
+				<li>
+					<a href="https://eriklima.com/github" target="_blank">Github</a>
+				</li>
+
+				<li>
+					<a href="https://eriklima.com/instagram" target="_blank">Instagram</a>
+				</li>
+
+			</ul>
+
+			<div id="social-links">
+				<a href="https://eriklima.com/" target="_blank">
+					<ion-icon name="planet-outline"></ion-icon>
+				</a>
+
+				<a href="https://eriklima.com/youtube" target="_blank">
+					<ion-icon name="logo-youtube"></ion-icon>
+			    </a>
+
+				<a href="https://eriklima.com/linkedin" target="_blank">
+					<ion-icon name="logo-linkedin"></ion-icon>
+				</a>
+
+				<a href="https://eriklima.com/github" target="_blank">
+					<ion-icon name="logo-github"></ion-icon>
+				</a>
+
+				<a href="https://eriklima.com/instagram" target="_blank">
+					<ion-icon name="logo-instagram"></ion-icon>
+				</a>
+
+			</div>
+
+
+			<footer>
+				Made by <a href="https://eriklima.com" target="_blank">Erik Lima
+			</footer>
+
+		</div>
+      
+		<!-- Importando uma biblioteca de icones - https://ionic.io/ionicons/usage -->
+		<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+		<!-- Importando o arquivo script.js que esta na raiz do projeto -->
+		<script src="./script.js"></script>
+		
+    </body>
+
+</html>
